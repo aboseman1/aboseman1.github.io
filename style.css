@@ -1,0 +1,169 @@
+/* Universal Styles */
+
+body {
+  background-color: black;
+  color: seashell;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 22px;
+}
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  font-family: Helvetica;
+  font-size 22px;
+  color: seashell;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+}
+
+.logo img {
+  opacity: 0.9;
+  height: 50px;
+  padding-left: 10px;
+}
+
+.logo span {
+  color: seashell;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+nav span {
+  padding: 20px 10px;
+  opacity: 0.9;
+  text-decoration: underline;
+}
+
+/* This is the Main Content of the Page */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  align-items: center;
+
+}
+.mission {
+  background-image: url("file://C:/projects/Cozy/images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+ }
+
+.headline {
+  background-color: black;
+  text-align: center;
+}
+
+/* This is where the Tea of the Month section starts */
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  width: 1000px;
+  align-items: center;
+}
+
+.month {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  justify-content: center;
+}
+
+.middle .headline {
+  padding-bottom: 20px;
+}
+
+.fall-berry {
+  padding: 20px 15px;
+  margin-top: -50px;
+}
+
+.fall-berry img {
+  height: 200px;
+  width: 300px;
+}
+
+/* This starts the locations section of the page */
+
+.locations {
+  background-image: url("file://C:/projects/Cozy/images/img-locations-background.jpg");
+  background-size: 1200px 700px;
+  height: 500px;
+  width: 1200px;
+ }
+
+
+
+ .locations-box {
+   display: flex;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: space-between;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-bottom: 100px;
+ }
+
+ .locations h2 {
+   margin-top: 50px;
+ }
+
+.box h4 {
+  opacity: 1;
+}
+
+.box h3 {
+  opacity: 1;
+}
+ .box1 {
+   background-color: black;
+   width: 300px;
+ }
+
+ .box2 {
+   background-color: black;
+   width: 300px;
+ }
+
+ .box3 {
+   background-color: black;
+   width: 300px;
+ }
